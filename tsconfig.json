@@ -1,6 +1,7 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
+		"noEmit": true,
 		"allowJs": true,
 		"checkJs": true,
 		"esModuleInterop": true,
@@ -11,4 +12,23 @@
 		"strict": true,
 		"strictPropertyInitialization": false
 	}
+	,
+	"include": [
+		"src/**/*",
+		"src"
+	],
+	"exclude": [
+		"node_modules",
+		"static",
+		"static/**",
+		"postcss.config.cjs",
+		"tailwind.config.cjs",
+		"svelte.config.js",
+		"vite.config.js",
+		"src-tools",
+		"src-tools/**",
+		".svelte-kit",
+		"dist",
+		"build"
+	]
 }

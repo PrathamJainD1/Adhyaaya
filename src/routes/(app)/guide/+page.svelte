@@ -1,6 +1,6 @@
 <script lang="ts">
 	import map from '$lib/assets/map.png';
-  import {EVENTS} from '$lib/data/events'
+	import { EVENTS } from '$lib/data/events';
 	enum Mode {
 		ONLINE = 'Online',
 		OFFLINE = 'Offline'
@@ -26,14 +26,13 @@
 			{ time: '12:00AM-3:00PM', name: 'Stock', mode: Mode.OFFLINE },
 			{ time: '11:00AM-6:00PM', name: 'Vaad-vivaad', mode: Mode.OFFLINE },
 			{ time: '10:30AM-6:00PM', name: 'BornPsychos', mode: Mode.OFFLINE },
-			{ time: '11:00AM-6:00PM', name: 'Codeventure', mode: Mode.ONLINE },
+			{ time: '11:00AM-6:00PM', name: 'Circuit Quests', mode: Mode.OFFLINE },
 			{ time: '11:00AM-5:00PM', name: 'Roborace', mode: Mode.OFFLINE },
 			{ time: '5:00PM-7:30PM', name: 'Stargaze', mode: Mode.OFFLINE },
 			{ time: '1:00PM-6:00PM', name: 'Foodoholics', mode: Mode.OFFLINE },
 			{ time: '11:00PM-1:00PM', name: 'Structure Spy', mode: Mode.ONLINE },
 			{ time: '6:00PM onwards', name: 'Respawn BGMI, Valorant', mode: Mode.OFFLINE },
 			{ time: '12:00PM-4:00PM', name: 'Virtual Placement Round 3,4', mode: Mode.OFFLINE }
-		
 		],
 		// Day 3
 		[
@@ -43,11 +42,11 @@
 			{ time: '3:30PM-6:00PM', name: 'Validictory', mode: Mode.OFFLINE }
 		]
 	];
-  let ORG = [
-    ["Sahil Brahme", "9552269716"],
-    ["Yash Raut", "8149722736"],
-    ["Shubhlak Kanpate", "9370749283"],
-  ]
+	let ORG = [
+		['Sahil Brahme', '9552269716'],
+		['Yash Raut', '8149722736'],
+		['Shubhlak Kanpate', '9370749283']
+	];
 </script>
 
 <div
@@ -57,7 +56,7 @@
 <div class="flex flex-wrap justify-center pt-28">
 	<div class="w-full lg:w-1/2 px-4">
 		<!-- <img class="w-full h-full object-contain" src={imageUrl} alt="Map of GCOEN" /> -->
-		<img class="w-full h-full object-contain " src={map} alt="Map of GCOEN" />
+		<img class="w-full h-full object-contain" src={map} alt="Map of GCOEN" />
 	</div>
 	<div class="w-full lg:w-1/2 px-4 pt-10 lg:pt-0 text-lg text-gray-200">
 		<div class="flex flex-wrap justify-center w-full">
@@ -125,35 +124,35 @@
 	</div>
 </div>
 
-
 <div class="flex flex-col flex-wrap justify-center pt-10 px-4 pb-10">
 	<h2 class="text-3xl font-bold text-center pb-10">Contacts</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4">
-    {#each EVENTS.filter(e => e.is_active) as event}
-      <div class="bg-[#1d0028] shadow overflow-hidden rounded-lg">
-        <div class="px-4 py-5 sm:p-6">
-          <h3 class="text-xl font-medium text-gray-200">{event.name}</h3>
-          <div class="mt-4">
-            <p class="font-medium text-gray-400">Contact:</p>
-            <p class="mt-1 text-gray-300">{event.contact[0].name}</p>
-            <p class="mt-1 text-gray-300">{event.contact[0].phone}</p>
-          </div>
-        </div>
-      </div>
-    {/each}
+	<div
+		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4"
+	>
+		{#each EVENTS.filter((e) => e.is_active) as event}
+			<div class="bg-[#1d0028] shadow overflow-hidden rounded-lg">
+				<div class="px-4 py-5 sm:p-6">
+					<h3 class="text-xl font-medium text-gray-200">{event.name}</h3>
+					<div class="mt-4">
+						<p class="font-medium text-gray-400">Contact:</p>
+						<p class="mt-1 text-gray-300">{event.contact[0].name}</p>
+						<p class="mt-1 text-gray-300">{event.contact[0].phone}</p>
+					</div>
+				</div>
+			</div>
+		{/each}
 
-    {#each ORG as org, i}
-      <div class="bg-[#1d0028] shadow overflow-hidden rounded-lg">
-        <div class="px-4 py-5 sm:p-6">
-          <h3 class="text-xl font-medium text-gray-200">Emergency Contact {i+1}</h3>
-          <div class="mt-4">
-            <p class="font-medium text-gray-400">Contact:</p>
-            <p class="mt-1 text-gray-300">{org[0]}</p>
-            <p class="mt-1 text-gray-300">{org[1]}</p>
-          </div>
-        </div>
-      </div>
-    {/each}
-  </div>
+		{#each ORG as org, i}
+			<div class="bg-[#1d0028] shadow overflow-hidden rounded-lg">
+				<div class="px-4 py-5 sm:p-6">
+					<h3 class="text-xl font-medium text-gray-200">Emergency Contact {i + 1}</h3>
+					<div class="mt-4">
+						<p class="font-medium text-gray-400">Contact:</p>
+						<p class="mt-1 text-gray-300">{org[0]}</p>
+						<p class="mt-1 text-gray-300">{org[1]}</p>
+					</div>
+				</div>
+			</div>
+		{/each}
+	</div>
 </div>
-

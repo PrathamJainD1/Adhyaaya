@@ -10,7 +10,7 @@ let options = {
 </script>
 
 <svelte:head>
-	<title>Our Glorious Past | Adhyaaya'24</title>
+	<title>Our Glorious Past | Adhyaaya'26</title>
 </svelte:head>
 
 <!-- zoomwall.js -->
