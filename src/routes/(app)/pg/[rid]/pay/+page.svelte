@@ -7,10 +7,10 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
-	let rzp1: Razorpay;
+	let rzp1: any;
 
 	const options = {
-		key: "PUBLIC_RZP_KEY", // Enter the Key ID generated from the Dashboard
+		key: 'PUBLIC_RZP_KEY', // Enter the Key ID generated from the Dashboard
 		amount: data.db.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
 		currency: 'INR',
 		name: "Adhyaaya'23 | GCOEN",
@@ -39,17 +39,21 @@
 		}
 	};
 
-	onMount(() => {
+	function openRazorpay() {
 		try {
-			rzp1 = new Razorpay(options);
+			rzp1 = new (window as any).Razorpay(options);
 		} catch (error) {
-			alert(error);
-			rzp1 = new Razorpay(options);
+			// alert(error);
+			rzp1 = new (window as any).Razorpay(options);
 		}
 		rzp1.on('payment.failed', function (e: PGHandlerErrorResponse) {
 			alert(e.error.description);
 		});
 		rzp1.open();
+	}
+
+	onMount(() => {
+		openRazorpay();
 	});
 </script>
 
@@ -66,17 +70,7 @@
 		<div class="text-2xl font-bold">
 			Incase it does not redirect, please <a
 				href=""
-				on:click|preventDefault={() => {
-					try {
-						rzp1 = new Razorpay(options);
-						rzp1.on('payment.failed', function (e) {
-							alert(e.error.description);
-						});
-						rzp1.open();
-					} catch (error) {
-						alert(error);
-					}
-				}}
+				on:click|preventDefault={openRazorpay}
 				class="uppercase font-bold">click here</a
 			>
 		</div>

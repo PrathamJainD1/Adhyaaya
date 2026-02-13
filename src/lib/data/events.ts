@@ -39,13 +39,13 @@ export interface AdhyaayaEvent {
 }
 import born from '$lib/assets/icons/born.png?url'
 import virtual_placement_icon from '$lib/assets/icons/vp.png?url';
-import respawn from '$lib/assets/icons/respawn.png';
+import respawn from '$lib/assets/icons/respawn.png?url';
 import vaad_vivad from '$lib/assets/icons/youth.png?url';
 
 import foodoshit from '$lib/assets/icons/salad.png?url';
 import cricbash from '$lib/assets/icons/cricbash.png?url';
 
-import graffiti from '$lib/assets/icons/graffiti.png?url';
+// import graffiti from '$lib/assets/icons/graffiti.png?url';
 import jigyasa from '$lib/assets/icons/soldier.png?url';
 import stargaze from '$lib/assets/icons/stargazer1.png?url';
 import gdsc from '$lib/assets/icons/gdsc.png?url';
@@ -80,22 +80,22 @@ import p_respawn from '$lib/assets/posters/respawn.jpg';
 import p_virtual_placement from '$lib/assets/posters/vp.jpg';
 import p_bornpsycos from '$lib/assets/posters/bp.jpg';
 //import p_cadoshit from '$lib/assets/posters/cad-o-shop.jpg';
-import p_graffiti from '$lib/assets/posters/graffiti.jpg';
+// import p_graffiti from '$lib/assets/posters/graffiti.jpg';
 import p_foodoholics from '$lib/assets/posters/fh.jpg';
-import p_gsdc from '$lib/assets/posters/hack-on.jpg';
+// import p_gsdc from '$lib/assets/posters/hack-on.jpg';
 import p_jigyasa from '$lib/assets/posters/jigyasa.jpg';
 import p_roborace from '$lib/assets/posters/rr.jpg';
 import p_stargaze from '$lib/assets/posters/sg.jpg';
-import p_piso from '$lib/assets/posters/pisosoccer.jpg';
-import p_yuvodaya from '$lib/assets/posters/yuvodaya.jpg';
+// import p_piso from '$lib/assets/posters/pisosoccer.jpg';
+// import p_yuvodaya from '$lib/assets/posters/yuvodaya.jpg';
 import p_vaadvivaad from '$lib/assets/posters/vaadvivaad.jpg';
 import p_lounge from '$lib/assets/posters/theLounge.jpg';
 
-import p_standardhunt from '$lib/assets/posters/standardtunt.jpg'
-import p_standardsumit from '$lib/assets/posters/standardsumit.jpg'
-import p_cb from '$lib/assets/posters/carrerBuilder.jpg'
-import p_admad from '$lib/assets/posters/admad.jpg'
-import p_bb from '$lib/assets/posters/brainbuster.jpg'
+// import p_standardhunt from '$lib/assets/posters/standardtunt.jpg'
+// import p_standardsumit from '$lib/assets/posters/standardsumit.jpg'
+// import p_cb from '$lib/assets/posters/carrerBuilder.jpg'
+// import p_admad from '$lib/assets/posters/admad.jpg'
+// import p_bb from '$lib/assets/posters/brainbuster.jpg'
 import p_cricbash from '$lib/assets/posters/cb.jpg';
 import p_valorant from '$lib/assets/posters/valo.jpg';
 //import p_ie from '$lib/assets/posters/innovationexpress.jpeg';
@@ -224,35 +224,35 @@ export const EVENTS: AdhyaayaEvent[] = [
 		is_open: true,
 		whatsapp_link: 'https://chat.whatsapp.com/KXRX7DJTXR8HGTk1pE4GUw'
 	},
-	// {
-	// 	id: 'respawn',
-	// 	mode: 'online',
-	// 	category: 'non-technical',
-	// 	name: 'BGMI',
-	// 	form_link: 'https://forms.gle/cuhF5ggTrV6bCL6AA',
-	// 	description:
-	// 		'Thrilling battles and fierce competition took center stage at the BGMI Tournament, where skilled gamers clashed in an electrifying display of strategy and precision. The event was a celebration of esports excellence, showcasing the best players vying for victory in the world of Battlegrounds Mobile India',
-	// 	amount: [159_00],
-	// 	team_members: [4],
-	// 	start_date: new Date('21 Feb 2025'),
-	// 	end_date: new Date('21 Feb 2025'),
-	// 	small_image: 'https://placeimg.com/360/360/tech',
-	// 	icon: `url::${BGMI}`,
-	// 	poster: p_respawn,
-	// 	contact: [
-	// 		{
-	// 			name: 'Anshul Harne',
-	// 			phone: '9890559714'
-	// 		},
-	// 		{
-	// 			name: 'Piyush Padole',
-	// 			phone: '8766830550'
-	// 		}
-	// 	],
-	// 	is_active: true,
-	// 	is_open: false,
-	// 	whatsapp_link: 'https://chat.whatsapp.com/KXRX7DJTXR8HGTk1pE4GUw'
-	// },
+	{
+		id: 'respawn',
+		mode: 'online',
+		category: 'non-technical',
+		name: 'BGMI',
+		form_link: 'https://forms.gle/cuhF5ggTrV6bCL6AA',
+		description:
+			'Thrilling battles and fierce competition took center stage at the BGMI Tournament, where skilled gamers clashed in an electrifying display of strategy and precision. The event was a celebration of esports excellence, showcasing the best players vying for victory in the world of Battlegrounds Mobile India',
+		amount: [159_00],
+		team_members: [4],
+		start_date: new Date('21 Feb 2025'),
+		end_date: new Date('21 Feb 2025'),
+		small_image: 'https://placeimg.com/360/360/tech',
+		icon: `url::${BGMI}`,
+		poster: p_respawn,
+		contact: [
+			{
+				name: 'Anshul Harne',
+				phone: '9890559714'
+			},
+			{
+				name: 'Piyush Padole',
+				phone: '8766830550'
+			}
+		],
+		is_active: true,
+		is_open: false,
+		whatsapp_link: 'https://chat.whatsapp.com/KXRX7DJTXR8HGTk1pE4GUw'
+	},
 	{
 		id: 'valorant',
 		mode: 'online',
