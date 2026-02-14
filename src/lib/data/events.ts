@@ -145,7 +145,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'non-technical',
 		name: 'CB',
-		form_link: '',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSe7i_oXC0fNjmOGp8KxPS8Gob5VQdTqT0PcvtbJDAHuhcqGDA/viewform?usp=publish-editor',
 		description:
 			'Cricbash is an exciting team-based cricket tournament that brings together sportsmanship, strategy, and competitive spirit. Teams battle it out on the field through fast-paced matches, showcasing skill, coordination, and passion for the game. The event promises thrilling moments and exciting cash prizes for the winners.',
 		amount: [0],
@@ -174,7 +174,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'non-technical',
 		name: 'Jigyasa',
-		form_link: '',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSfT_jDCbhcYm_IDlBKu8ulkcyRfcgnLGGlUyNg4pKWrRtnNBg/viewform?usp=publish-editor',
 		description:
 			'Jigyasa is an outreach initiative organized to inspire children by introducing them to technology and the academic environment of an engineering college. The event included interactive activities and competitions designed to enhance curiosity, creativity, and learning. By providing exposure to modern technology and career possibilities, Jigyasa aimed to guide young minds, motivate them toward higher education, and help them gain clarity about their future aspirations. As part of this event, children were invited to the engineering college campus, where a series of interactive activities, fun learning sessions, and competitions were organized to spark curiosity and creativity.',
 		amount: [0],
@@ -204,7 +204,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'online',
 		category: 'non-technical',
 		name: 'FF',
-		form_link: 'https://forms.gle/cuhF5ggTrV6bCL6AA',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdkpDeNa-mfvaOfkvjfgIdzG55wyzzguXwk467EepgcxsSVpQ/viewform?usp=publish-editor',
 		description:
 			'Gear up for an adrenaline-packed Free Fire tournament where strategy, teamwork, and fast reflexes decide the champions. Compete in squads, showcase your battle skills, and fight your way to victory in this high-intensity gaming showdown at Adhyaaya 2026.',
 		amount: [159_00],
@@ -258,7 +258,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'online',
 		category: 'non-technical',
 		name: 'Valorant',
-		form_link: 'https://forms.gle/cuhF5ggTrV6bCL6AA',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdkpDeNa-mfvaOfkvjfgIdzG55wyzzguXwk467EepgcxsSVpQ/viewform?usp=publish-editor',
 		description:
 			'Gear up for an adrenaline-packed Valorant tournament where strategy, teamwork, and fast reflexes decide the champions. Compete in squads, showcase your battle skills, and fight your way to victory in this high-intensity gaming showdown at Adhyaaya 2026.',
 		amount: [159_00],
@@ -287,7 +287,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'online',
 		category: 'non-technical',
 		name: 'CC',
-		form_link: 'https://forms.gle/cuhF5ggTrV6bCL6AA',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdkpDeNa-mfvaOfkvjfgIdzG55wyzzguXwk467EepgcxsSVpQ/viewform?usp=publish-editor',
 		description:
 			'Put your mind to the test in the Chess Tournament, where logic, patience, and strategy rule the board. Whether you’re a seasoned player or a tactical thinker, this event offers a competitive platform to challenge opponents and prove your mastery of the game.',
 		amount: [159_00],
@@ -312,7 +312,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'technical',
 		name: 'Avishkar',
-		form_link: 'https://forms.gle/HWumibVd9uo9r5bQA',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSd6DwUWTMUJJE4aN5pN5RqHJ4BPxUYURF_vrElLx4oBTuqVSA/viewform?usp=publish-editor',
 		description:
 			'Avishkar is a project competition for enthusiasts who want to showcase their ideas and show their talent .Teams can have Up to 5 members and project can be in hardware or software categorise .win Exiting prices up to worth 9k for junior greeks and upto 15 k for senior greeks.Register Today itself!!',
 		amount: [159_00, 159_00],
@@ -348,7 +348,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'online',
 		category: 'technical',
 		name: 'Avishkar',
-		form_link: 'https://forms.gle/4tGY6RnxA8vkK9rS6',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSd6DwUWTMUJJE4aN5pN5RqHJ4BPxUYURF_vrElLx4oBTuqVSA/viewform?usp=publish-editor',
 		description:
 			'Avishkar is a project competition for engineering students to showcase their innovative ideas. Teams can have up to 5 members and projects can be in hardware or software categories. Competition consists of two rounds: elimination and questionnaire. Register today!',
 		amount: [159_00, 159_00],
@@ -377,7 +377,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'technical',
 		name: 'Virtual Placement',
-		form_link: 'https://forms.gle/T5izWo6KS4oeGoyX6',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLScP5aqyhe8gzB7j4XmTrnpIaNSHzOhh2WTZad1xePMQXMYNvQ/viewform?usp=publish-editor',
 		description:
 			"Virtual Placement is a simulated recruitment event designed to prepare students for real-world hiring processes. It consists of three rounds Campus Recruitment Test assessing aptitude and reasoning Group Discussion evaluating communication and leadership skills and Personal Interview testing technical knowledge and problem-solving. This competition helps participants understand industry expectations and improve their placement readiness.",
 		amount: [79_00],
@@ -406,7 +406,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'online',
 		category: 'technical',
 		name: 'CodeVenture',
-		form_link: 'https://forms.gle/kAaFxCPQ665hsMeLA',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSeGtGHAOuv7vm21Ocy_UvFkpQZxXMD6NIOeQI2a4K9KqJAZJg/viewform?usp=publish-editor',
 		description:
 			"CODEVENTURE is COMSA’s flagship event, challenging participants in debugging and problem-solving through two rounds: Debugging Challenge and Hackathon Simulation. The competition tests technical expertise, analytical thinking, and creativity in innovative programming solutions. Round 1: Bug Trap Round 2: Recode",
 		amount: [0],
@@ -495,7 +495,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'technical',
 		name: 'RoboRace',
-		form_link: 'https://forms.gle/48tUqBQd8p9ov58v7',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLScigP1R9XiKFMdcXFQcYAwZo4TGKPqeOV440W0QLrRUJVO6EA/viewform?usp=publish-editor',
 		description:
 			"Roborace success hinges on harmonizing algorithmic precision, mechanical optimization, and strategic adaptability. RDT posits that championship teams balance rapid course mapping, real-time sensor data analysis, and calculated risk-taking. By synchronizing computational power with human intuition, teams can outmaneuver opponents, maximize speed, and dominate the Roborace competition.",
 		amount: [69_00],
@@ -524,7 +524,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'non-technical',
 		name: 'VV',
-		form_link: 'https://forms.gle/C9YHAVwwC7r5Tjia7',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLScw902NCvUiG4G66_VvMAoum8p9x5hxUJqV2En9-sbp-CEtww/viewform?usp=publish-editor',
 		description:
 			'Vaad–Vivaad is a thought-provoking debate competition that tests participants’ critical thinking, articulation, and reasoning skills. Participants present structured arguments on engaging topics, encouraging healthy discussion, logical analysis, and confident public speaking in a competitive environment.',
 		amount: [49_00],
@@ -555,7 +555,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'non-technical',
 		name: 'Born-Psychos',
-		form_link: 'https://forms.gle/kVkF2dsq2mo4x5Ns5',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSfgqi62X7MHEd3VetnGtyHJlJ5eG3x4p6hjuzWe4gvwd4tBHA/viewform?usp=publish-editor',
 		description:
 			'Born Psychos is an exciting team event for groups of two or four, blending technical knowledge with fun challenges. It features three thrilling rounds: Quiz Master, a BIS-standardized treasure hunt and quiz; Flip-A-Score, a riddle-solving buzzer round followed by a smiley ball fight; and Treasure-Back, a murder mystery where teams race to find the culprit. This event promises intense competition, teamwork, and excitement',
 		amount: [199_00],
@@ -582,7 +582,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 	{
 		id: 'food-o-holic',
 		mode: 'offline',
-		form_link: 'https://forms.gle/nQ9DNbT4TYc2Zpvw5',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSfOgkfF8RSSxx_GE-9_6-FL_6bfocHlHwmX0pGVWYJbpDkmIg/viewform?usp=dialog',
 		category: 'non-technical',
 		name: 'Food-O-Holic',
 		description:
@@ -639,7 +639,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'workshops',
 		name: 'Lounge',
-		form_link: 'https://forms.gle/ZVrwbbdVc3xVW7ii7',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSeRc--qzKmrSdel1oz5TZBllNzEEi7GMryXLf6bkgGCgJAjOg/viewform?usp=publish-editor',
 		description:
 			'The Lounge is an interactive session where students engage with accomplished Rotarians. Featuring Dr. Shabbire Shakir, the event explores his career journey, challenges, and insights. A student host will lead the discussion, followed by an open mic Q&A, offering valuable real-world advice and inspiration for students’ professional growth.',
 		amount: [0],
@@ -668,7 +668,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'workshops',
 		name: 'Jigyasa',
-		form_link: 'https://forms.gle/fzd17SxUgWGA7ft78',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSfT_jDCbhcYm_IDlBKu8ulkcyRfcgnLGGlUyNg4pKWrRtnNBg/viewform?usp=publish-editor',
 		description:
 			"Jigyasa 2025 is an insightful workshop on civil services and cybersecurity organized by adhyaaya.gcoen in collaboration with NSS GCoEN. Featuring Indian Police Service experts the event follows a Discover Diagnose and Demystify approach to help participants understand career paths preparation strategies and real-world challenges. With a focus on education and community development Jigyasa fosters social responsibility and leadership making it a valuable opportunity for aspiring professionals.",
 		amount: [0],
@@ -697,7 +697,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'workshops',
 		name: 'Stargaze',
-		form_link: 'https://forms.gle/8kkcKUTibKaqwirk8',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSc4nd4Lg_UkUyqbf_KcooifXDQR3b-xcJR5RNK16pQ54SL2QA/viewform?usp=sharing&ouid=114482364338425554641',
 		description:
 			"The Astronomy Club of Government College of Engineering, Nagpur, is organizing 'STARGAZE',an annual workshop conducted during the institution's technical fest, Adhyaaya. The event focuses on the fundamentals of astrophysics and astronomy, featuring expert guest lectures and career guidance in space science. It aims to nurture students' interest in observational astronomy and highlight scientific advancements at national and international levels.",
 		amount: [59_00],
@@ -723,7 +723,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		id: 'bridgeocraft',
 		mode: 'offline',
 		category: 'technical',
-		form_link: 'https://forms.gle/PD9oCkb1n6x2TAZJ6',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLScOklGLjTRxdwk8vWIsgfbuuKheButWnauXOOFnHO4P0VNdsA/viewform?usp=publish-editor',
 		name: 'Bridge-O-Craft',
 		description:
 			"Bridge O' Craft is a hands-on competition where teams of five test their engineering skills using only ice-cream sticks and glue. It features three rounds Treasure Hunt where teams solve clues to unlock materials Bridge Construction where they build a structure within given constraints and Load-Bearing Test where bridges are tested for strength and stability. This event encourages creativity teamwork and practical application of engineering principles.",
@@ -753,7 +753,7 @@ export const EVENTS: AdhyaayaEvent[] = [
 		mode: 'offline',
 		category: 'technical',
 		name: 'Circuit Quest',
-		form_link: 'https://forms.gle/kAaFxCPQ665hsMeLA',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSeEO8fNDm6hsYhe7U-dFaszHxwXy6rIowlDe-BWHGOsNpgpFA/viewform?usp=publish-editor',
 		description:
 			'Circuit Quest is a technical team event that puts participants’ electronics knowledge and practical skills to the test. The competition progresses through multiple rounds including a quiz, circuit designing, and hands-on breadboard implementation. It encourages logical thinking, problem-solving, and teamwork, making it an ideal challenge for aspiring engineers.',
 		amount: [0],
