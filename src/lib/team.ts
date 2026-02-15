@@ -1,291 +1,256 @@
+// Import all team member photos
+import pratham_photo from '$lib/assets/team/website/pratham.jpg?url';
+import anuj_photo from '$lib/assets/team/website/anuj.jpg?url';
+import tanmay_photo from '$lib/assets/team/website/tanmay.jpg?url';
+
+import ankush_photo from '$lib/assets/team/advisors/Ankush.jpg?url';
+import womika_photo from '$lib/assets/team/advisors/Womika.jpg?url';
+import yash_photo from '$lib/assets/team/advisors/Yash.jpg?url';
+import abc_photo from '$lib/assets/team/advisors/abc.jpg?url';
+
+import aryanvidhate_photo from '$lib/assets/team/bcs/aryanvidhate.jpg?url';
+import nikhil_photo from '$lib/assets/team/bcs/nikhil.jpg?url';
+import saksham_photo from '$lib/assets/team/bcs/saksham.jpg?url';
+import shivam_photo from '$lib/assets/team/bcs/shivam.jpg?url';
+
+import akshitaray_photo from '$lib/assets/team/cnd/akshitaray.jpg?url';
+import harshachaudari_photo from '$lib/assets/team/cnd/harshachaudari.jpg?url';
+import mahimaraut_photo from '$lib/assets/team/cnd/mahimaraut.jpg?url';
+import maitrayi_photo from '$lib/assets/team/cnd/maitrayi.jpg?url';
+
+import aarti_photo from '$lib/assets/team/female-coordinator/Aarti.JPG?url';
+
+import jay_pathode_photo from '$lib/assets/team/technical/Jay Pathode .webp?url';
+
+import bhavna_photo from '$lib/assets/team/organization/bhavna.jpg?url';
+import sachu_photo from '$lib/assets/team/organization/sachu.jpg?url';
+import samraddhi_photo from '$lib/assets/team/organization/samraddhi.jpg?url';
+import somnath_photo from '$lib/assets/team/organization/somnath.jpg?url';
+import vaijanti_photo from '$lib/assets/team/organization/vaijanti.jpg?url';
+
+import yashasvi_photo from '$lib/assets/team/sponsorship/YASHASVI.jpg?url';
+
+import arnav_photo from '$lib/assets/team/publicity/arnav.jpg?url';
+import aryan_photo from '$lib/assets/team/publicity/aryan.jpg?url';
+import raza_photo from '$lib/assets/team/publicity/raza.jpg?url';
+import shrikant_photo from '$lib/assets/team/publicity/shrikant.jpg?url';
+import vishesh_photo from '$lib/assets/team/publicity/vishesh.jpg?url';
+
+import vedantkale_photo from '$lib/assets/team/social-media/vedantkale.jpg?url';
+import xyz_photo from '$lib/assets/team/social-media/xyz.jpg?url';
+
 type Person = {
   name: string;
   photoUrl: string;
   postContent: string;
 };
 
-type Team= {
+type Team = {
   name: string;
-  members:Person[]
+  members: Person[]
 }
 
-export const teams : Team[]=[
+export const teams: Team[] = [
   {
-    name:"Advisor Team",
-    members:[
+    name: "Website Team",
+    members: [
       {
-        name: 'Sushrut Kohale',
-        photoUrl: '/images/advisors/Sushrut kohale.jpg',
-        postContent: 'Advisor',
+        name: 'Pratham Jain',
+        photoUrl: pratham_photo,
+        postContent: 'Head',
       },
       {
-        name: 'Aditya Shinde',
-        photoUrl: '/images/advisors/Aditya Shinde.jpg',
-        postContent: 'Advisor',
-      },
-      {//
-        name: 'Swara Nagpure',
-        photoUrl: '/images/advisors/Swara nagpure.jpg',
-        postContent: 'Advisor',
+        name: 'Anuj Waghwani',
+        photoUrl: anuj_photo,
+        postContent: 'Co-head',
       },
       {
-        name: 'Anukul Ghosh',
-        photoUrl: '/images/advisors/Anukul Ghosh.png',
-        postContent: 'Advisor',
-      },
-      {
-        name: 'Om Chaudhary',
-        photoUrl: '/images/advisors/Om Chaudhary.jpg',
-        postContent: 'Advisor',
+        name: 'Tanmay Pande',
+        photoUrl: tanmay_photo,
+        postContent: 'Co-head',
       },
     ]
-  },{
-    name:"Coordinator Team",
-    members:[
+  },
+  {
+    name: "Advisor Team",
+    members: [
       {
-        name: 'Arsh Sheikh',
-        photoUrl: '/images/coordinators/Arsh Sheikh.jpg',
-        postContent: 'Co-ordinator (EE)',
-      },
-      {
-        name: 'Yash Dhawale',
-        photoUrl: '/images/coordinators/Yash Dhawale .jpg',
-        postContent: 'Co-ordinator (ETC)',
+        name: 'Ankush Singh',
+        photoUrl: ankush_photo,
+        postContent: 'Advisor',
       },
       {
         name: 'Womika Gaidhani',
-        photoUrl: '/images/coordinators/Womika Gaidhani .jpg',
-        postContent: 'Co-ordinator (CE)',
+        photoUrl: womika_photo,
+        postContent: 'Advisor',
       },
       {
-        name: 'Ankush Kumar Singh',
-        photoUrl: '/images/coordinators/Ankush Kumar Singh .jpg',
-        postContent: 'Co-ordinator (CSE)',
+        name: 'Yash Dhawale',
+        photoUrl: yash_photo,
+        postContent: 'Advisor',
       },
       {
-        name: 'Yasshowardhan Pethe',
-        photoUrl: '/images/coordinators/Yasshowardhan pethe.png',
-        postContent: 'Co-ordinator (ME)',
+        name: 'abc',
+        photoUrl: abc_photo,
+        postContent: 'Advisor',
       },
-    ]
-  },
-  {
-    name:"Organisation Team",
-    members:[
-      {
-        name: 'Anshu Chole',
-        photoUrl: '/images/organisation team/Anshu Chole .jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Atharva Karale',
-        photoUrl: '/images/organisation team/Atharva Karale.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Medhaj Dixit',
-        photoUrl: '/images/organisation team/Medhaj Dixit.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Unnati Tadas',
-        photoUrl: '/images/organisation team/unnati tadas.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Vijay Chirde',
-        photoUrl: '/images/organisation team/Vijay Chirde.jpg',
-        postContent: 'Co-head',
-      },
-      
-    ]
-  },{
-    name:"Technical Team",
-    members:[
-      {
-        name: 'Zishan Deshmukh',
-        photoUrl: '/images/technical team/Zishan Deshmukh.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Roshan Padit',
-        photoUrl: '/images/technical team/Roshan Padit.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Darshan Narad',
-        photoUrl: '/images/technical team/Darshan Narad.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Kartik Musale',
-        photoUrl: '/images/technical team/Kartik Musale .jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Niharika Nagpurkar',
-        photoUrl: '/images/technical team/Niharika Nagpurkar.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Sarthak Domkawle',
-        photoUrl: '/images/technical team/Sarthak domkawle .jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Shreyash Moon',
-        photoUrl: '/images/technical team/Shreyash Moon.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Tarun Maraskolhe',
-        photoUrl: '/images/technical team/Tarun Maraskolhe .jpg',
-        postContent: 'Head',
-      },
-    ]
-  },{
-    name:"Sponsorship Team",
-    members:[
-      {
-        name: 'Shreyash Moon',
-        photoUrl: '/images/sponsorship/Shreyash Moon.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Yashash Meshram',
-        photoUrl: '/images/sponsorship/Yashash meshram.jpg',
-        postContent: 'Head',
-      },
-    ]
-  },
-  {
-    name:"Publicity Team",
-    members:[
-      {
-        name: 'Aditi Sonone',
-        photoUrl: '/images/publicity team/Aditi sonone .jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Bhumi Raut',
-        photoUrl: '/images/publicity team/Bhumi Raut.jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Darshan Narad',
-        photoUrl: '/images/publicity team/Darshan Narad.jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Saumitra Yogi',
-        photoUrl: '/images/publicity team/Saumitra Yogi .jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Vansh Kuthe',
-        photoUrl: '/images/publicity team/Vansh kuthe.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Vivek Rathod',
-        photoUrl: '/images/publicity team/VIVEK RATHOD.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Yashash Meshram',
-        photoUrl: '/images/publicity team/Yashash meshram.jpg',
-        postContent: 'Co-head',
-      },
-      
-    ]
-  },
-  {
-    name:"Accounting Team",
-    members:[
-      {
-        name: 'Atharva Karale',
-        photoUrl: '/images/accounting team/Atharva Karale.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Bhumi Raut',
-        photoUrl: '/images/accounting team/Bhumi Raut.jpg',
-        postContent: 'Head',
-      },
-     
-    ]
-  },{
-    name:"Decoration Team",
-    members:[
-      {
-        name: 'Durgesh Kale',
-        photoUrl: '/images/c&d/Durgesh Kale.jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Hrucha Linge',
-        photoUrl: '/images/c&d/Hrucha Linge.png',
-        postContent: 'Head',
-      },
-      {
-        name: 'Janhavi Soyam',
-        photoUrl: '/images/c&d/Janhavi Soyam .png',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Ritika Amte',
-        photoUrl: '/images/c&d/RITIKA AMTE.jpg',
-        postContent: 'Head',
-      },
-    ]
-  },{
-    name:"Content Writing",
-    members:[
-      {
-        name: 'Aditi Sonone',
-        photoUrl: '/images/content writting/Aditi sonone .jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Durgesh Kale',
-        photoUrl: '/images/content writting/Durgesh Kale.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Ritika Amte',
-        photoUrl: '/images/content writting/RITIKA AMTE.jpg',
-        postContent: 'Head',
-      },
-    ]
-  },{
-    name:"Hospitality Team",
-    members:[
-      {
-        name: 'Atharv Sonar',
-        photoUrl: '/images/h&d/Atharv Sonar .jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Medhaj Dixit',
-        photoUrl: '/images/h&d/Medhaj Dixit.jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Vansh Ilkahar',
-        photoUrl: '/images/h&d/Vansh Ikharkar .jpg',
-        postContent: 'Co-head',
-      },
-      {
-        name: 'Guru Vanikar',
-        photoUrl: '/images/h&d/Guru Wanikar.jpg',
-        postContent: 'Head',
-      },
-      {
-        name: 'Vikas Kuthmode',
-        photoUrl: '/images/h&d/Vikas kuthmude.jpg',
-        postContent: 'Co-head',
-      },
-    ]
-  },
-]
 
+    ]
+  },
+  {
+    name: "BCs Team",
+    members: [
+      {
+        name: 'Aryan vidhate',
+        photoUrl: aryanvidhate_photo,
+        postContent: 'BCs',
+      },
+      {
+        name: 'Nikhil',
+        photoUrl: nikhil_photo,
+        postContent: 'BCs',
+      },
+      {
+        name: 'Saksham',
+        photoUrl: saksham_photo,
+        postContent: 'BCs',
+      },
+      {
+        name: 'Shivam',
+        photoUrl: shivam_photo,
+        postContent: 'BCs',
+      },
+    ]
+  },
+  {
+    name: "C&D Team",
+    members: [
+      {
+        name: 'Akshita Ray',
+        photoUrl: akshitaray_photo,
+        postContent: 'C&D',
+      },
+      {
+        name: 'Harsha Chaudari',
+        photoUrl: harshachaudari_photo,
+        postContent: 'C&D',
+      },
+      {
+        name: 'Mahima Raut',
+        photoUrl: mahimaraut_photo,
+        postContent: 'C&D',
+      },
+      {
+        name: 'Maitrayi Waindeshkar',
+        photoUrl: maitrayi_photo,
+        postContent: 'C&D',
+      },
+    ]
+  },
+  {
+    name: "Female- Coordinator",
+    members: [
+      {
+        name: 'Aarti Bhujade',
+        photoUrl: aarti_photo,
+        postContent: 'Female- Coordinator',
+      },
+    ]
+  },
+  {
+    name: "Technical Team",
+    members: [
+      {
+        name: 'Jay Pathode',
+        photoUrl: jay_pathode_photo,
+        postContent: 'Head',
+      },
+    ]
+  },
+  {
+    name: "Organizing Team",
+    members: [
+      {
+        name: 'Bhavna Nakade',
+        photoUrl: bhavna_photo,
+        postContent: 'Head',
+      },
+      {
+        name: 'Sachu Sonak ',
+        photoUrl: sachu_photo,
+        postContent: 'Head',
+      },
+      {
+        name: 'Samriddhi Pandey ',
+        photoUrl: samraddhi_photo,
+        postContent: 'Head',
+      },
+      {
+        name: 'Somnath Majumdar ',
+        photoUrl: somnath_photo,
+        postContent: 'Head',
+      },
+      {
+        name: 'Vaijanti Padave ',
+        photoUrl: vaijanti_photo,
+        postContent: 'Head',
+      },
+    ]
+  },
+  {
+    name: "Sponsorship Team",
+    members: [
+      {
+        name: 'Yashasvi ',
+        photoUrl: yashasvi_photo,
+        postContent: 'Head',
+      },
+    ]
+  },
+  {
+    name: "Publicity Team",
+    members: [
+      {
+        name: 'Arnav Ingole',
+        photoUrl: arnav_photo,
+        postContent: 'Co-head',
+      },
+      {
+        name: 'Aryan Shinde',
+        photoUrl: aryan_photo,
+        postContent: 'Co-head',
+      },
+      {
+        name: 'Raza Khan',
+        photoUrl: raza_photo,
+        postContent: 'Co-head',
+      },
+      {
+        name: 'Shrikant Dhoble',
+        photoUrl: shrikant_photo,
+        postContent: 'Co-head',
+      },
+      {
+        name: 'Vishesh Karmankar',
+        photoUrl: vishesh_photo,
+        postContent: 'Co-head',
+      },
+    ]
+  },
+  {
+    name: "Social Media Team",
+    members: [
+      {
+        name: 'Vedant Kale',
+        photoUrl: vedantkale_photo,
+        postContent: 'Head',
+      },
+      {
+        name: 'xyz',
+        photoUrl: xyz_photo,
+        postContent: 'Head',
+      },
+    ]
+  },
+
+]
