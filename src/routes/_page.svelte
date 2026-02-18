@@ -117,7 +117,7 @@
 	<link rel="preload" href="/draco/draco_decoder.wasm" as="fetch" crossorigin="use-credentials">
 	<link rel="preload" href="/draco/draco_wasm_wrapper.js" as="script" crossorigin="use-credentials">
 	<link rel="preload" href="/draco/draco_decoder.js" as="script" type="text/script"> -->
-	<title>Adhyaaya'25</title>
+	<title>Adhyaaya'26</title>
 </svelte:head>
 
 <div id="dna-bg" class="fixed h-screen w-screen -z-50 bg-[#0d0028]" />

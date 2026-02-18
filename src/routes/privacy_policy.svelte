@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Privacy Policy | Adhyaaya'25</title>
+	<title>Privacy Policy | Adhyaaya'26</title>
 </svelte:head>
 
 <!-- <div class="container mx-auto text-2xl pt-32 px-4">Privacy Policy</div>
@@ -28,15 +28,15 @@
 		<p class="updated-date">Last updated on 4th Feb 2025</p>
 		<p class="content-text">
 			This privacy policy sets out how Adhyaaya'24 uses and protects any information that you give
-			Adhyaaya'25 when you use this website.
+			Adhyaaya'26 when you use this website.
 		</p>
 		<p class="content-text">
-			Adhyaaya'25 is committed to ensuring that your privacy is protected. Should we ask you to
+			Adhyaaya'26 is committed to ensuring that your privacy is protected. Should we ask you to
 			provide certain information by which you can be identified when using this website, and then
 			you can be assured that it will only be used in accordance with this privacy statement.
 		</p>
 		<p class="content-text">
-			Adhyaaya'25 may change this policy from time to time by updating this page. You should check
+			Adhyaaya'26 may change this policy from time to time by updating this page. You should check
 			this page from time to time to ensure that you are happy with any changes.
 		</p>
 		<p class="content-text"><strong>We may collect the following information:</strong></p>

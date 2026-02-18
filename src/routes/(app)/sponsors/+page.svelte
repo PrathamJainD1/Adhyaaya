@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import background from './bg.jpg?url';
+	import background from '$lib/assets/backgrounds/bg.png';
 	import { SPONSORS } from '$lib/data/sponsors';
 	import autoAnimate from '@formkit/auto-animate';
 	const TITLE_SPONSOR = SPONSORS.find((sponsor) => sponsor.category === 'TITLE');
@@ -17,7 +17,7 @@
 </script>
 
 <svelte:head>
-	<title>Our Sponsors | Adhyaaya'25</title>
+	<title>Our Sponsors | Adhyaaya'26</title>
 </svelte:head>
 
 <div

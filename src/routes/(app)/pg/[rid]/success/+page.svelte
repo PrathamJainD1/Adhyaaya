@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	// import qr from '$lib/assets/qr-code.png'
-	import adhyaaya_solid_logo from '$lib/assets/logo/solid-resize.webp';
+	import adhyaaya_solid_logo from '$lib/assets/logo/adhyaaya26_logo.png';
 	import { dev } from '$app/environment';
 	import { getQRCode } from '$lib/util';
 	import { onMount } from 'svelte';
@@ -24,12 +24,12 @@
 </script>
 
 <svelte:head>
-	<title>Receipt for {EVENT?.name} | Adhyaaya'25</title>
+	<title>Receipt for {EVENT?.name} | Adhyaaya'26</title>
 </svelte:head>
 
 <div class="md:h-screen w-screen md:w-screen no-scroll-bar">
-	<div class="reciept-container flex flex-col md:flex-row w-full h-full ">
-		<div class="left-half bg-black mx-auto py-0 md:py-10 md:px-0 md:pl-10 w-full md:w-3/5 ">
+	<div class="reciept-container flex flex-col md:flex-row w-full h-full">
+		<div class="left-half bg-black mx-auto py-0 md:py-10 md:px-0 md:pl-10 w-full md:w-3/5">
 			<div class="bg-white flex flex-col md:h-full overflow-y-scroll no-scroll-bar">
 				<div class="logo mx-auto h-40 w-40 mb-8 pt-4">
 					<img src={adhyaaya_solid_logo} class="h-28" height="112" width="202" alt="" />
@@ -48,7 +48,7 @@
 						>{data.db.id}</span
 					>
 				</div>
-				<div class="billing-info flex flex-col items-stretch pt-4 pb-10 ">
+				<div class="billing-info flex flex-col items-stretch pt-4 pb-10">
 					<div
 						class="flex flex-row items-center pt-4 pb-4 mx-auto border-b border-black w-11/12 justify-center"
 					>
@@ -73,7 +73,7 @@
 						</div>
 					</div>
 
-					<div class="grid grid-cols-2  md:gap-x-8 even:text-left odd:text-center mx-auto pt-10">
+					<div class="grid grid-cols-2 md:gap-x-8 even:text-left odd:text-center mx-auto pt-10">
 						<span class="text-lg font-bold text-black">Name:</span>
 						<span class="text-lg text-gray-700">{data.db.name}</span>
 
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="right-half bg-white mx-auto py-0 md:py-10 md:px-0 md:pr-10  w-full md:w-2/5">
+		<div class="right-half bg-white mx-auto py-0 md:py-10 md:px-0 md:pr-10 w-full md:w-2/5">
 			<div class="bg-black md:h-full px-8 md:pl-6 py-8 overflow-y-scroll no-scroll-bar">
 				<span class="instructions-header text-2xl text-white mb-2 nunu">Instructions</span>
 				<ul class="space-y-1 max-w-md list-disc list-inside text-gray-400">

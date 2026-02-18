@@ -4,7 +4,7 @@
 <video src="/events/sample.mp4" autoplay loop muted class="blur-sm"></video>
 
 `<svelte:head>
-	<title>Contact Info | Adhyaaya'25</title>
+	<title>Contact Info | Adhyaaya'26</title>
 </svelte:head>
 
 
@@ -15,7 +15,7 @@
 		<p class="updated-date">Last updated on Feb 11th 2025</p>
 		<p class="content-text">You may contact us using the information below :</p>
 		<p class="content-text">
-			<li class="list-item">Merchant Legal entity name : Adhyaaya'25</li>
+			<li class="list-item">Merchant Legal entity name : Adhyaaya'26</li>
 			<li class="list-item">Registered Address : Government College of Engineering, Sector-27, Mihan Rehabilitation Colony,Khapri, Nagpur - 441108</li>
 		 <li class="list-item">Telephone No : 8793150182</li>	
 			<li class="list-item">E-Mail ID : adhyaaya@gcoen.ac.in</li>

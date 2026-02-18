@@ -84,7 +84,7 @@
 <svelte:head>
 	<script src="/rzp/checkout.js"></script>
 	<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-	<title>Registration Form | Adhyaaya'25</title>
+	<title>Registration Form | Adhyaaya'26</title>
 </svelte:head>
 
 <div class="bg w-full pt-20 object-contain pb-10 min-h-screen" style="--bg:url({bg});--opacity: 0.4">

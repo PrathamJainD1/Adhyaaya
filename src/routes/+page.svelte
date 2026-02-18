@@ -67,7 +67,7 @@
 	<link rel="preload" href="/draco/draco_decoder.wasm" />
 	<link rel="preload" href="/draco/draco_wasm_wrapper.js" />
 	<link rel="preload" href="/draco/draco_decoder.js" />
-	<title>Adhyaaya'25</title>
+	<title>Adhyaaya'26</title>
 </svelte:head>
 
 <svelte:window bind:innerHeight bind:scrollY />

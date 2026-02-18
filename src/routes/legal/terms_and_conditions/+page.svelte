@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Terms and Conditions | Adhyaaya'25</title>
+	<title>Terms and Conditions | Adhyaaya'26</title>
 </svelte:head>
 <video src="/events/sample.mp4" autoplay loop muted class="blur-sm"></video>
 <!-- 
@@ -39,7 +39,7 @@
 			Welcome to our website. By using this website, you agree to these terms and conditions.
 		</p>
 		<p class="content-text">
-			The term 'Adhyaaya'25' or 'us' or 'we' refers to the owner of the website whose
+			The term 'Adhyaaya'26' or 'us' or 'we' refers to the owner of the website whose
 			registered/operational office is Government College of Engineering, Sector-27, Mihan
 			Rehabilitation Colony, Khapri, Nagpur - 441108. The term 'you' refers to the user or viewer of
 			our website.
@@ -99,7 +99,7 @@
 			<li class="list-item">
 				<p class="content-text list-text">
 					You may not create a link to this website from another website or document without
-					Adhyaaya'25’s prior written consent.
+					Adhyaaya'26’s prior written consent.
 				</p>
 			</li>
 			<li class="list-item">

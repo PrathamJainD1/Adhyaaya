@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
 	import { afterNavigate, goto as _goto } from '$app/navigation';
-	import AdhyaayaLogoSolid from '$lib/assets/logo/solid-resize.webp';
+	import AdhyaayaLogoSolid from '$lib/assets/logo/adhyaaya26_logo.png';
 	import { SOCIALS } from '$lib/data/socials';
 	export let isMenuOpen = false;
 	// export let isMenuOpen = true;
@@ -30,8 +30,11 @@
 
 {#if !$page.url.pathname.includes('asdfghbjnkml.swderft')}
 	<!-- bg-[#0d0028]/50 -->
-<div
-		class="fixed top-0 w-full min-h-16 z-[200] pointer-events-none flex flex-row px-4 md:px-10 py-4 bg-transparent {scrollY > 35 ? '':''}  items-center print:hidden transition-all duration-700  z-10"
+	<div
+		class="fixed top-0 w-full min-h-16 z-[200] pointer-events-none flex flex-row px-4 md:px-10 py-4 bg-transparent {scrollY >
+		35
+			? ''
+			: ''}  items-center print:hidden transition-all duration-700 z-10"
 	>
 		<button
 			on:click={() => {
@@ -39,11 +42,14 @@
 			}}
 			class="logo bg-transparent {$page.url.pathname.includes('success')
 				? 'invisible'
-				: ''} w-20 md:w-36 pointer-events-auto py-1 px-2  rounded-lg transition-all duration-250 hover:scale-105 active:scale-95 cursor-pointer mr-auto {scrollY > 4500 ? 'opacity-0':''}"
+				: ''} w-20 md:w-36 pointer-events-auto py-1 px-2 rounded-lg transition-all duration-250 hover:scale-105 active:scale-95 cursor-pointer mr-auto {scrollY >
+			4500
+				? 'opacity-0'
+				: ''}"
 		>
 			<img src={AdhyaayaLogoSolid} alt="" />
 		</button>
-		
+
 		<!-- <a
 			href="/register?select=true"
 			class="register text-white pointer-events-auto bg-transparent md:mr-10 mr-4 py-1 px-2 md:py-2 md:px-4 rounded-full border {isMenuOpen
@@ -55,12 +61,12 @@
 		<input id="menu-toggle" bind:checked={isMenuOpen} type="checkbox" class="hidden" />
 		<label
 			for="menu-toggle"
-			class="menu-icon  cursor-pointer h-10 w-10 md:h-12 md:w-12 rounded-full pointer-events-auto relative transition-all duration-500 ease-in-out hover:scale-105 active:scale-95 border  {isMenuOpen
+			class="menu-icon cursor-pointer h-10 w-10 md:h-12 md:w-12 rounded-full pointer-events-auto relative transition-all duration-500 ease-in-out hover:scale-105 active:scale-95 border {isMenuOpen
 				? 'border-white'
 				: 'border-white/60'}"
 		>
 			<div
-				class="absolute w-[18px] h-[2px] origin-center bg-white transition-all ease-in-out duration-500 "
+				class="absolute w-[18px] h-[2px] origin-center bg-white transition-all ease-in-out duration-500"
 				style="{isMenuOpen
 					? 'top: 50%;'
 					: 'top: calc(50% - 4px);'} left: 50%; transform: translateX(-50%) translateY(-50%) {isMenuOpen
@@ -123,7 +129,7 @@
 					on:focus={() => {
 						setBackgroundPosition(bgX, -75);
 					}}
-					on:click={()=>goto("/teams")}
+					on:click={() => goto('/teams')}
 					on:mouseover={() => {
 						setBackgroundPosition(bgX, -75);
 					}}
@@ -157,9 +163,9 @@
 					on:mouseover={() => {
 						setBackgroundPosition(bgX, -150);
 					}}
-					class="menu-item-container flex flex-col md:flex-row gap-2 md:gap-14  md:pt-10"
+					class="menu-item-container flex flex-col md:flex-row gap-2 md:gap-14 md:pt-10"
 				>
-				<a
+					<a
 						href="/legal/timeline"
 						on:focus={() => {
 							setBackgroundPosition(-25, bgY);
@@ -177,7 +183,7 @@
 						on:mouseover={() => {
 							setBackgroundPosition(0, bgY);
 						}}
-						class="submenu-item text-base ">Privacy Policy</a
+						class="submenu-item text-base">Privacy Policy</a
 					>
 					<a
 						href="/legal/terms_and_conditions"
@@ -216,7 +222,7 @@
 					href={social.link}
 					class="h-10 w-10 md:h-12 md:w-12 rounded-full border border-white mx-auto md:ml-0 md:mr-10 inline-flex items-center justify-center text-2xl md:text-3xl cursor-pointer {social.text}  hover:scale-105 active:scale-95 bg-white active:opacity-90 transition-all duration-200 ease-in-out"
 				>
-					<iconify-icon icon={social.icon} style="color:black"/>
+					<iconify-icon icon={social.icon} style="color:black" />
 				</a>
 			{/each}
 		</div>
@@ -244,7 +250,6 @@
 	}
 
 	.menu-items:hover > .menu-item {
-		
 	}
 
 	.menu-item-container {
@@ -256,7 +261,6 @@
 	}
 
 	.menu-items:hover > .menu-item-container > .submenu-item {
-		
 	}
 
 	.menu-item {

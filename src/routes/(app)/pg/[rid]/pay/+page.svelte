@@ -13,7 +13,7 @@
 		key: 'PUBLIC_RZP_KEY', // Enter the Key ID generated from the Dashboard
 		amount: data.db.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
 		currency: 'INR',
-		name: "Adhyaaya'23 | GCOEN",
+		name: "Adhyaaya'26 | GCOEN",
 		description: `Payment by ${data.db.name} for ${data.db.event_id}, of amount ${
 			data.db.amount / 100
 		}`,
@@ -60,7 +60,7 @@
 <svelte:head>
 	<script src="/rzp/checkout.js"></script>
 	<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-	<title>Payment Gateway | Adhyaaya'25</title>
+	<title>Payment Gateway | Adhyaaya'26</title>
 </svelte:head>
 
 <div class="h-full-w-full flex items-center justify-center">

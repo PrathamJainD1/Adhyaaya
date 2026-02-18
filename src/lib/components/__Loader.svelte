@@ -3,7 +3,7 @@
 </script>
 
 <div out:fade>
-	<h1>Adhyaaya'25</h1>
+	<h1>Adhyaaya'26</h1>
 	<section>
 		<div />
 		<div />

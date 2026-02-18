@@ -1,7 +1,7 @@
 <script>
   import mp4Video from "/src/routes/events/sample.mp4"; // Correct path!
 </script><svelte:head>
-	<title>Privacy Policy | Adhyaaya'25</title>
+	<title>Privacy Policy | Adhyaaya'26</title>
 </svelte:head>
 <video src={mp4Video} autoplay loop muted class="blur-sm"></video>
 
@@ -30,16 +30,16 @@
 		<div class="content-seprater"/>
 		<p class="updated-date">Last updated on 11th Feb 2025</p>
 		<p class="content-text">
-			This privacy policy sets out how Adhyaaya'25 uses and protects any information that you give
-			Adhyaaya'25 when you use this website.
+			This privacy policy sets out how Adhyaaya'26 uses and protects any information that you give
+			Adhyaaya'26 when you use this website.
 		</p>
 		<p class="content-text">
-			Adhyaaya'25 is committed to ensuring that your privacy is protected. Should we ask you to
+			Adhyaaya'26 is committed to ensuring that your privacy is protected. Should we ask you to
 			provide certain information by which you can be identified when using this website, and then
 			you can be assured that it will only be used in accordance with this privacy statement.
 		</p>
 		<p class="content-text">
-			Adhyaaya'25 may change this policy from time to time by updating this page. You should check
+			Adhyaaya'26 may change this policy from time to time by updating this page. You should check
 			this page from time to time to ensure that you are happy with any changes.
 		</p>
 		<p class="content-text"><strong>We may collect the following information:</strong></p>

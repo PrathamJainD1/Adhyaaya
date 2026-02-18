@@ -65,7 +65,7 @@
 <!-- <svelte:window bind:scrollY /> -->
 
 <svelte:head>
-	<title>Meet Our Team | Adhyaaya'25</title>
+	<title>Meet Our Team | Adhyaaya'26</title>
 </svelte:head>
 
 <!-- <Nav /> -->
