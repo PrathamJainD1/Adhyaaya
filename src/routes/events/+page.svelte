@@ -108,7 +108,7 @@
 									alt=""
 									style="height: 175px; margin-top: 15px; margin-bottom: 15px; "
 								/>
-								<h1>Virtual Placement</h1>
+								<h1>Voice Venture</h1>
 							</div>
 						</div>
 					</div>
@@ -244,7 +244,7 @@
 					</div>
 				</button>
 
-				<button
+				<!-- <button
 					on:click={async () => {
 						const event = getEventById('cc-tournament');
 						if (event) {
@@ -264,7 +264,7 @@
 							</div>
 						</div>
 					</div>
-				</button>
+				</button> -->
 
 				<button
 					on:click={async () => {
@@ -349,6 +349,27 @@
 									style="height: 175px; margin-top: 15px; margin-bottom: 15px; "
 								/>
 								<h1>Food-O-Holic</h1>
+							</div>
+						</div>
+					</div>
+				</button>
+				<button
+					on:click={async () => {
+						const event = getEventByName('admad');
+						if (event) {
+							await goto(`/events?view=${event.id}`);
+							openModal(EventInfoModal, { event });
+						}
+					}}
+					><div class="maincontainer">
+						<div class="thecard">
+							<div class="thefront">
+								<img
+									src="/events/icons/admad.png"
+									alt=""
+									style="height: 175px; margin-top: 15px; margin-bottom: 15px; "
+								/>
+								<h1>Ad-Mad</h1>
 							</div>
 						</div>
 					</div>

@@ -77,7 +77,7 @@ import p_bridgeocraft from '$lib/assets/posters/bridge-o-craft.jpg';
 import p_circuit_quests from '$lib/assets/posters/cq.jpg';
 import p_codeventure from '$lib/assets/posters/cv.jpg';
 import p_respawn from '$lib/assets/posters/respawn.jpg';
-import p_virtual_placement from '$lib/assets/posters/vp.jpg';
+import p_virtual_placement from '$lib/assets/posters/venturevoice.jpg';
 import p_bornpsycos from '$lib/assets/posters/bp.jpg';
 //import p_cadoshit from '$lib/assets/posters/cad-o-shop.jpg';
 // import p_graffiti from '$lib/assets/posters/graffiti.jpg';
@@ -94,10 +94,10 @@ import p_lounge from '$lib/assets/posters/theLounge.jpg';
 // import p_standardhunt from '$lib/assets/posters/standardtunt.jpg'
 // import p_standardsumit from '$lib/assets/posters/standardsumit.jpg'
 // import p_cb from '$lib/assets/posters/carrerBuilder.jpg'
-// import p_admad from '$lib/assets/posters/admad.jpg'
-// import p_bb from '$lib/assets/posters/brainbuster.jpg'
+import p_admad from '$lib/assets/posters/admad.jpg'
+import p_bb from '$lib/assets/posters/brainbuster.jpg'
 import p_cricbash from '$lib/assets/posters/cb.jpg';
-import p_valorant from '$lib/assets/posters/valo.jpg';
+import p_valorant from '$lib/assets/posters/respawn.jpg';
 //import p_ie from '$lib/assets/posters/innovationexpress.jpeg';
 //import p_ss from '$lib/assets/posters/structural-spy.jpeg';
 
@@ -150,8 +150,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Cricbash is an exciting team-based cricket tournament that brings together sportsmanship, strategy, and competitive spirit. Teams battle it out on the field through fast-paced matches, showcasing skill, coordination, and passion for the game. The event promises thrilling moments and exciting cash prizes for the winners.',
 		amount: [0],
 		team_members: [1],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('9-10 March 2026'),
+		end_date: new Date('9-10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${cricbash}`,
 		poster: p_cricbash,
@@ -179,8 +179,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Jigyasa is an outreach initiative organized to inspire children by introducing them to technology and the academic environment of an engineering college. The event included interactive activities and competitions designed to enhance curiosity, creativity, and learning. By providing exposure to modern technology and career possibilities, Jigyasa aimed to guide young minds, motivate them toward higher education, and help them gain clarity about their future aspirations. As part of this event, children were invited to the engineering college campus, where a series of interactive activities, fun learning sessions, and competitions were organized to spark curiosity and creativity.',
 		amount: [0],
 		team_members: [1],
-		start_date: new Date('7 March 2026'),
-		end_date: new Date('7 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${jigyasa}`,
 		poster: p_jigyasa,
@@ -209,8 +209,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Gear up for an adrenaline-packed Free Fire tournament where strategy, teamwork, and fast reflexes decide the champions. Compete in squads, showcase your battle skills, and fight your way to victory in this high-intensity gaming showdown at Adhyaaya 2026.',
 		amount: [159_00],
 		team_members: [4],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${valorant}`,
 		poster: p_respawn,
@@ -263,8 +263,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Gear up for an adrenaline-packed Valorant tournament where strategy, teamwork, and fast reflexes decide the champions. Compete in squads, showcase your battle skills, and fight your way to victory in this high-intensity gaming showdown at Adhyaaya 2026.',
 		amount: [159_00],
 		team_members: [5],
-		start_date: new Date('7 March 2026'),
-		end_date: new Date('7 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${valorant}`,
 		poster: p_valorant,
@@ -282,31 +282,31 @@ export const EVENTS: AdhyaayaEvent[] = [
 		is_open: true,
 		whatsapp_link: 'https://chat.whatsapp.com/KXRX7DJTXR8HGTk1pE4GUw'
 	},
-	{
-		id: 'cc-tournament',
-		mode: 'online',
-		category: 'non-technical',
-		name: 'CC',
-		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdkpDeNa-mfvaOfkvjfgIdzG55wyzzguXwk467EepgcxsSVpQ/viewform?usp=publish-editor',
-		description:
-			'Put your mind to the test in the Chess Tournament, where logic, patience, and strategy rule the board. Whether you’re a seasoned player or a tactical thinker, this event offers a competitive platform to challenge opponents and prove your mastery of the game.',
-		amount: [159_00],
-		team_members: [4],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
-		small_image: 'https://placeimg.com/360/360/tech',
-		icon: `url::${respawn}`,
-		poster: p_respawn,
-		contact: [
-			{
-				name: 'Rameshwar Pable',
-				phone: '922553567'
-			}
-		],
-		is_active: true,
-		is_open: true,
-		whatsapp_link: 'https://chat.whatsapp.com/KXRX7DJTXR8HGTk1pE4GUw'
-	},
+	// {
+	// 	id: 'cc-tournament',
+	// 	mode: 'online',
+	// 	category: 'non-technical',
+	// 	name: 'CC',
+	// 	form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSdkpDeNa-mfvaOfkvjfgIdzG55wyzzguXwk467EepgcxsSVpQ/viewform?usp=publish-editor',
+	// 	description:
+	// 		'Put your mind to the test in the Chess Tournament, where logic, patience, and strategy rule the board. Whether you’re a seasoned player or a tactical thinker, this event offers a competitive platform to challenge opponents and prove your mastery of the game.',
+	// 	amount: [159_00],
+	// 	team_members: [4],
+	// 	start_date: new Date('9 March 2026'),
+	// 	end_date: new Date('9 March 2026'),
+	// 	small_image: 'https://placeimg.com/360/360/tech',
+	// 	icon: `url::${respawn}`,
+	// 	poster: p_respawn,
+	// 	contact: [
+	// 		{
+	// 			name: 'Rameshwar Pable',
+	// 			phone: '922553567'
+	// 		}
+	// 	],
+	// 	is_active: true,
+	// 	is_open: true,
+	// 	whatsapp_link: 'https://chat.whatsapp.com/KXRX7DJTXR8HGTk1pE4GUw'
+	// },
 	{
 		id: '::avishkar',
 		mode: 'offline',
@@ -317,8 +317,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Avishkar is a project competition for enthusiasts who want to showcase their ideas and show their talent .Teams can have Up to 5 members and project can be in hardware or software categorise .win Exiting prices up to worth 9k for junior greeks and upto 15 k for senior greeks.Register Today itself!!',
 		amount: [159_00, 159_00],
 		team_members: [2, 4],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${avishkar}`,
 		poster: p_avishkar,
@@ -353,8 +353,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Avishkar is a project competition for engineering students to showcase their innovative ideas. Teams can have up to 5 members and projects can be in hardware or software categories. Competition consists of two rounds: elimination and questionnaire. Register today!',
 		amount: [159_00, 159_00],
 		team_members: [2, 4],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: 'flat-color-icons:idea',
 		poster: p_avishkar,
@@ -373,17 +373,17 @@ export const EVENTS: AdhyaayaEvent[] = [
 		whatsapp_link: 'https://chat.whatsapp.com/BPDlJw6eH90LKUv0AGcvAg'
 	},
 	{
-		id: 'virtual-placement',
+		id: 'voice-venture',
 		mode: 'offline',
 		category: 'technical',
-		name: 'Virtual Placement',
+		name: 'Venture Voice',
 		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLScP5aqyhe8gzB7j4XmTrnpIaNSHzOhh2WTZad1xePMQXMYNvQ/viewform?usp=publish-editor',
 		description:
-			"Virtual Placement is a simulated recruitment event designed to prepare students for real-world hiring processes. It consists of three rounds Campus Recruitment Test assessing aptitude and reasoning Group Discussion evaluating communication and leadership skills and Personal Interview testing technical knowledge and problem-solving. This competition helps participants understand industry expectations and improve their placement readiness.",
+			"Venture Voice is a simulated recruitment event designed to prepare students for real-world hiring processes. It consists of three rounds Campus Recruitment Test assessing aptitude and reasoning Group Discussion evaluating communication and leadership skills and Personal Interview testing technical knowledge and problem-solving. This competition helps participants understand industry expectations and improve their placement readiness.",
 		amount: [79_00],
 		team_members: [1],
-		start_date: new Date('6 March 2026'),
-		end_date: new Date('6 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${virtual_placement_icon}`,
 		poster: p_virtual_placement,
@@ -411,8 +411,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			"CODEVENTURE is COMSA’s flagship event, challenging participants in debugging and problem-solving through two rounds: Debugging Challenge and Hackathon Simulation. The competition tests technical expertise, analytical thinking, and creativity in innovative programming solutions. Round 1: Bug Trap Round 2: Recode",
 		amount: [0],
 		team_members: [1],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${circuit_icon}`,
 		poster: p_codeventure,
@@ -500,8 +500,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			"Roborace success hinges on harmonizing algorithmic precision, mechanical optimization, and strategic adaptability. RDT posits that championship teams balance rapid course mapping, real-time sensor data analysis, and calculated risk-taking. By synchronizing computational power with human intuition, teams can outmaneuver opponents, maximize speed, and dominate the Roborace competition.",
 		amount: [69_00],
 		team_members: [1],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('11 March 2026'),
+		end_date: new Date('11 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${roborace}`,
 		poster: p_roborace,
@@ -529,8 +529,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Vaad–Vivaad is a thought-provoking debate competition that tests participants’ critical thinking, articulation, and reasoning skills. Participants present structured arguments on engaging topics, encouraging healthy discussion, logical analysis, and confident public speaking in a competitive environment.',
 		amount: [49_00],
 		team_members: [1],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${vaad_vivad}`,
 		poster: p_vaadvivaad,
@@ -560,8 +560,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Born Psychos is an exciting team event for groups of two or four, blending technical knowledge with fun challenges. It features three thrilling rounds: Quiz Master, a BIS-standardized treasure hunt and quiz; Flip-A-Score, a riddle-solving buzzer round followed by a smiley ball fight; and Treasure-Back, a murder mystery where teams race to find the culprit. This event promises intense competition, teamwork, and excitement',
 		amount: [199_00],
 		team_members: [4],
-		start_date: new Date('6 March 2026'),
-		end_date: new Date('6 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${born}`,
 		poster: p_bornpsycos,
@@ -589,8 +589,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'"Food-o-Holics" is a fun-filled team event for groups of four featuring exciting food-related challenges. It consists of three thrilling rounds Belly Buster Battle where teams throw a ball into a glass and eat without using their hands Munch and Mastermind a food quiz with penalties and a three-legged race with spice challenges and The Great Dessert Dash where two members must finish 1 kg of shrikhand while the others assist. This event promises a blend of fun teamwork and foodie excitement.',
 		amount: [299_00],
 		team_members: [4],
-		start_date: new Date('6 March 2026'),
-		end_date: new Date('6 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${foodoshit}`,
 		poster: p_foodoholics,
@@ -644,8 +644,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'The Lounge is an interactive session where students engage with accomplished Rotarians. Featuring Dr. Shabbire Shakir, the event explores his career journey, challenges, and insights. A student host will lead the discussion, followed by an open mic Q&A, offering valuable real-world advice and inspiration for students’ professional growth.',
 		amount: [0],
 		team_members: [1],
-		start_date: new Date('7 March 2026'),
-		end_date: new Date('7 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${Lounge}`,
 		poster: p_lounge,
@@ -673,8 +673,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			"Jigyasa 2025 is an insightful workshop on civil services and cybersecurity organized by adhyaaya.gcoen in collaboration with NSS GCoEN. Featuring Indian Police Service experts the event follows a Discover Diagnose and Demystify approach to help participants understand career paths preparation strategies and real-world challenges. With a focus on education and community development Jigyasa fosters social responsibility and leadership making it a valuable opportunity for aspiring professionals.",
 		amount: [0],
 		team_members: [1],
-		start_date: new Date('7 March 2026'),
-		end_date: new Date('7 March 2026'),
+		start_date: new Date('9 March 2026'),
+		end_date: new Date('9 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${jigyasa}`,
 		poster: p_jigyasa,
@@ -702,8 +702,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			"The Astronomy Club of Government College of Engineering, Nagpur, is organizing 'STARGAZE',an annual workshop conducted during the institution's technical fest, Adhyaaya. The event focuses on the fundamentals of astrophysics and astronomy, featuring expert guest lectures and career guidance in space science. It aims to nurture students' interest in observational astronomy and highlight scientific advancements at national and international levels.",
 		amount: [59_00],
 		team_members: [1],
-		start_date: new Date('6 March 2026'),
-		end_date: new Date('6 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${stargaze}`,
 		poster: p_stargaze,
@@ -729,8 +729,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			"Bridge O' Craft is a hands-on competition where teams of five test their engineering skills using only ice-cream sticks and glue. It features three rounds Treasure Hunt where teams solve clues to unlock materials Bridge Construction where they build a structure within given constraints and Load-Bearing Test where bridges are tested for strength and stability. This event encourages creativity teamwork and practical application of engineering principles.",
 		amount: [49_00],
 		team_members: [1],
-		start_date: new Date('5 March 2026'),
-		end_date: new Date('5 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${bridge}`,
 		poster: p_bridgeocraft,
@@ -758,8 +758,8 @@ export const EVENTS: AdhyaayaEvent[] = [
 			'Circuit Quest is a technical team event that puts participants’ electronics knowledge and practical skills to the test. The competition progresses through multiple rounds including a quiz, circuit designing, and hands-on breadboard implementation. It encourages logical thinking, problem-solving, and teamwork, making it an ideal challenge for aspiring engineers.',
 		amount: [0],
 		team_members: [1],
-		start_date: new Date('6 March 2026'),
-		end_date: new Date('6 March 2026'),
+		start_date: new Date('10 March 2026'),
+		end_date: new Date('10 March 2026'),
 		small_image: 'https://placeimg.com/360/360/tech',
 		icon: `url::${circuit_icon}`,
 		poster: p_circuit_quests,
@@ -860,63 +860,63 @@ export const EVENTS: AdhyaayaEvent[] = [
 	// 	is_open: true,
 	// 	whatsapp_link: ''
 	// },
-	// {
-	// 	id: 'admad',
-	// 	mode: 'offline',
-	// 	category: 'technical',
-	// 	name: 'Ad - Mad',
-	// 	form_link: 'https://forms.gle/GrwxgVAGXR3kRLb69',
-	// 	description:
-	// 		'"AD-MAD" is a creative ad-making competition by GCOE Nagpur and BIS, focusing on BIS-specific, social awareness, comedy, and innovative ideas. Free entry with prizes up to ₹3000. Showcase your creativity through advertisements',
-	// 	amount: [0],
-	// 	team_members: [1],
-	// 	start_date: new Date('21 Feb 2025'),
-	// 	end_date: new Date('21 Feb 2025'),
-	// 	small_image: 'https://placeimg.com/360/360/tech',
-	// 	icon: `url::${admad}`,
-	// 	poster: p_admad,
-	// 	contact: [
-	// 		{
-	// 			name: 'Aditya Suryavanshi',
-	// 			phone: '9921082180'
-	// 		},
-	// 		{
-	// 			name: 'Pranay Kadu',
-	// 			phone: '7620943177'
-	// 		}
-	// 	],
-	// 	is_active: true,
-	// 	is_open: true,
-	// 	whatsapp_link: ''
-	// },
-	// {
-	// 	id: 'bb',
-	// 	mode: 'offline',
-	// 	category: 'technical',
-	// 	name: 'Brain Busters',
-	// 	form_link: 'https://forms.gle/EErLtk9u359fmGKB9',
-	// 	description:
-	// 		'The "Brain Busters" tech quiz at Government College of Engineering, Nagpur, tests knowledge of BIS standards and technical concepts. It features three rounds: The Standard Pen, Fact vs. Fiction, and Standards Sprints.',
-	// 	amount: [0],
-	// 	team_members: [1],
-	// 	start_date: new Date('21 Feb 2025'),
-	// 	end_date: new Date('21 Feb 2025'),
-	// 	small_image: 'https://placeimg.com/360/360/tech',
-	// 	icon: `url::${bb}`,
-	// 	poster: p_bb,
-	// 	contact: [
-	// 		{
-	// 			name: 'Zoya Salahuddin',
-	// 			phone: '7387630037'
-	// 		},
-	// 		{
-	// 			name: 'Yash Talmale',
-	// 			phone: '9356626905'
-	// 		}
-	// 	],
-	// 	is_active: true,
-	// 	is_open: true,
-	// 	whatsapp_link: ''
-	// },
+	{
+		id: 'admad',
+		mode: 'offline',
+		category: 'technical',
+		name: 'Ad - Mad',
+		form_link: 'https://forms.gle/GrwxgVAGXR3kRLb69',
+		description:
+			'"AD-MAD" is a creative ad-making competition by GCOE Nagpur and BIS, focusing on BIS-specific, social awareness, comedy, and innovative ideas. Free entry with prizes up to ₹3000. Showcase your creativity through advertisements',
+		amount: [0],
+		team_members: [1],
+		start_date: new Date('10 Feb 2025'),
+		end_date: new Date('10 Feb 2025'),
+		small_image: 'https://placeimg.com/360/360/tech',
+		icon: `url::${admad}`,
+		poster: p_admad,
+		contact: [
+			{
+				name: 'Aditya Suryavanshi',
+				phone: '9921082180'
+			},
+			{
+				name: 'Pranay Kadu',
+				phone: '7620943177'
+			}
+		],
+		is_active: true,
+		is_open: true,
+		whatsapp_link: ''
+	},
+	{
+		id: 'bb',
+		mode: 'offline',
+		category: 'technical',
+		name: 'Brain Busters',
+		form_link: 'https://forms.gle/EErLtk9u359fmGKB9',
+		description:
+			'The "Brain Busters" tech quiz at Government College of Engineering, Nagpur, tests knowledge of BIS standards and technical concepts. It features three rounds: The Standard Pen, Fact vs. Fiction, and Standards Sprints.',
+		amount: [0],
+		team_members: [1],
+		start_date: new Date('10 Feb 2025'),
+		end_date: new Date('10 Feb 2025'),
+		small_image: 'https://placeimg.com/360/360/tech',
+		icon: `url::${bb}`,
+		poster: p_bb,
+		contact: [
+			{
+				name: 'Zoya Salahuddin',
+				phone: '7387630037'
+			},
+			{
+				name: 'Yash Talmale',
+				phone: '9356626905'
+			}
+		],
+		is_active: true,
+		is_open: true,
+		whatsapp_link: ''
+	},
 
 ];
