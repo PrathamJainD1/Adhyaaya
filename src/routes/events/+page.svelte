@@ -94,7 +94,7 @@
 
 				<button
 					on:click={async () => {
-						const event = getEventByName('virtual placement');
+						const event = getEventById('voice-venture');
 						if (event) {
 							await goto(`/events?view=${event.id}`);
 							openModal(EventInfoModal, { event });
@@ -355,7 +355,7 @@
 				</button>
 				<button
 					on:click={async () => {
-						const event = getEventByName('admad');
+						const event = getEventById('admad');
 						if (event) {
 							await goto(`/events?view=${event.id}`);
 							openModal(EventInfoModal, { event });
@@ -369,7 +369,7 @@
 									alt=""
 									style="height: 175px; margin-top: 15px; margin-bottom: 15px; "
 								/>
-								<h1>Ad-Mad</h1>
+								<h1>Ad - Mad</h1>
 							</div>
 						</div>
 					</div>

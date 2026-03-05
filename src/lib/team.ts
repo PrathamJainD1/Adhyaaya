@@ -90,7 +90,7 @@ export const teams: Team[] = [
         postContent: 'Advisor',
       },
       {
-        name: 'abc',
+        name: 'Riyansh Bagde',
         photoUrl: abc_photo,
         postContent: 'Advisor',
       },
@@ -101,7 +101,7 @@ export const teams: Team[] = [
     name: "BCs Team",
     members: [
       {
-        name: 'Aryan vidhate',
+        name: 'Aaryan Vidhate',
         photoUrl: aryanvidhate_photo,
         postContent: 'BCs',
       },
@@ -216,7 +216,7 @@ export const teams: Team[] = [
         postContent: 'Co-head',
       },
       {
-        name: 'Aryan Shinde',
+        name: 'Ayush Shinde',
         photoUrl: aryan_photo,
         postContent: 'Co-head',
       },

@@ -863,9 +863,9 @@ export const EVENTS: AdhyaayaEvent[] = [
 	{
 		id: 'admad',
 		mode: 'offline',
-		category: 'technical',
+		category: 'non-technical',
 		name: 'Ad - Mad',
-		form_link: 'https://forms.gle/GrwxgVAGXR3kRLb69',
+		form_link: 'https://docs.google.com/forms/d/e/1FAIpQLSe80zI_R7GJgE0mhA4yDId-132Vmn3elTY2hE3cclmM3aQFGA/viewform?usp=publish-editor',
 		description:
 			'"AD-MAD" is a creative ad-making competition by GCOE Nagpur and BIS, focusing on BIS-specific, social awareness, comedy, and innovative ideas. Free entry with prizes up to ₹3000. Showcase your creativity through advertisements',
 		amount: [0],
