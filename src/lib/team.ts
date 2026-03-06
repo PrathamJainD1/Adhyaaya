@@ -246,7 +246,7 @@ export const teams: Team[] = [
         postContent: 'Head',
       },
       {
-        name: 'xyz',
+        name: 'Rugved Deshmukh',
         photoUrl: xyz_photo,
         postContent: 'Head',
       },
